@@ -34,7 +34,7 @@ task dist(type: Jar){
     archiveFileName = "javadiscordbot.jar"
 
     manifest{
-        attributes 'Main-Class': Main
+        attributes 'Main-Class': 'jda.sucks.Laucnher'
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
