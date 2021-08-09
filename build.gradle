@@ -1,6 +1,17 @@
 group 'com.javadiscordbot.hm'
 version '0.1'
-apply plugin: 'java'
+
+
+plugins {
+
+  id("java")
+
+  id("application")
+
+  id("com.github.johnrengelman.shadow") version "6.0.0"
+
+}
+
 sourceCompatibility = 1.8
 repositories {
 
@@ -39,7 +50,7 @@ task dist(type: Jar){
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
-
+compileJava.options.encoding = "UTF-8"
 
  
 
