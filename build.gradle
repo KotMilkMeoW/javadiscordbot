@@ -6,21 +6,31 @@ repositories {
 
     mavenCentral()
     jcenter()
-    maven {
+}
+dependencies {
 
-        name 'm2-dv8tion'
+    //Change 'implementation' to 'compile' in old Gradle versions
 
-        url 'https://m2.dv8tion.net/releases'
+    implementation("net.dv8tion:JDA:VERSION") {
+
+        exclude module: 'opus-java'
 
     }
 
 }
 
-dependencies {
 
-    compile 'net.dv8tion:JDA:4.3.0_277'
 
-}
+
+    
+
+
+
+
+
+
+
+
 
 
 jar {
