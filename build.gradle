@@ -1,4 +1,4 @@
-group 'com.javadiscordbot.hm'
+:group 'com.javadiscordbot.hm'
 version '0.1'
 apply plugin: 'java'
 sourceCompatibility = 1.8
@@ -34,7 +34,7 @@ task dist(type: Jar){
     archiveFileName = "javadiscordbot.jar"
 
     manifest{
-        attributes{'Main-Class' "com.javadiscordbot.hm.Main"}
+        attributes 'Main-Class': "com.javadiscordbot.hm.Main"
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
