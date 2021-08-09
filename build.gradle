@@ -2,9 +2,6 @@ group 'com.javadiscordbot'
 version '0.1'
 apply plugin: 'java'
 sourceCompatibility = 1.8
-plugins {
-    id 'com.javadiscordbot'
-}
 repositories {
 
     mavenCentral()
