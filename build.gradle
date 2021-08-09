@@ -22,6 +22,7 @@ dependencies {
 
 }
 
+
 jar {
 
     from {
@@ -30,7 +31,22 @@ jar {
 
     }
 
+    manifest {
+
+        attributes 'Main-Class': 'jda.sucks.Laucnher'
+
+    }
+
 }
+
+
+
+
+ 
+
+
+
+
 
 
 
