@@ -1,4 +1,5 @@
-group 'com.javadiscordbot'
+group 'com.javadiscordbot.hm'
+mainClassName = 'com.javadiscordbot.hm'
 version '0.1'
 apply plugin: 'java'
 sourceCompatibility = 1.8
