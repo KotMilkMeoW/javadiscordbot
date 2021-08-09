@@ -1,7 +1,7 @@
 package com.javadiscordbot.hm;
-import net.dv8tion.core.AcountType;
+import net.dv8tion.jda.core.AcountType;
 
-import net.dv8tion.core.JDABuilder;
+import net.dv8tion.jda.core.JDABuilder;
 
 public class Main {
 
