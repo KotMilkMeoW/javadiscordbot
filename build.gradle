@@ -11,7 +11,7 @@ dependencies {
 
     //Change 'implementation' to 'compile' in old Gradle versions
 
-    implementation("net.dv8tion:JDA:VERSION") {
+    implementation("net.dv8tion:JDA:4.3.0_277") {
 
         exclude module: 'opus-java'
 
