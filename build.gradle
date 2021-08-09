@@ -1,4 +1,4 @@
-:group 'com.javadiscordbot.hm'
+group 'com.javadiscordbot.hm'
 version '0.1'
 apply plugin: 'java'
 sourceCompatibility = 1.8
