@@ -3,13 +3,9 @@ version '0.1'
 
 
 plugins {
-
   id("java")
-
   id("application")
-
   id("com.github.johnrengelman.shadow") version "6.0.0"
-
 }
 
 sourceCompatibility = 1.8
@@ -51,21 +47,3 @@ task dist(type: Jar){
 }
 
 compileJava.options.encoding = "UTF-8"
-
- 
-
-
-
-
-
-
-
-
-    
-      
-       
-    
-
-    
-
-
